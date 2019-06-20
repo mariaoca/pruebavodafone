@@ -22,14 +22,12 @@
   margin-right: 10px;
 }
 .hero__title {
-  /* width: 300px; */
-  height: 69px;
   font-size: 30px;
   line-height: 1.07;
   margin-bottom: 10px;
 }
 .hero__text {
-  width: 300px;
+  /* width: 300px; */
   font-size: 20px;
   line-height: normal;
   margin-bottom: 10px;
@@ -39,11 +37,12 @@
   width: 300px;
   height: 34px;
   background-color: #e60000;
-  border: 0;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 25px;
   color: #fff;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto 30px;
 }
 
 .section__title {
@@ -69,10 +68,12 @@
 }
 .section__one .section__title {
   padding-bottom: 26px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 .carousel__card {
   border: solid 2px #fff;
-  margin-left: 50px;
+  margin-left: 29px;
   width: 261px;
   height: 282px;
 }
@@ -124,4 +125,9 @@
   height: 20px;
   position: absolute;
   left: 12px;
+}
+
+/* Mediaqueries */
+
+@media all and (min-widtg: 768px) {
 }
