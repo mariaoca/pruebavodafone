@@ -22,7 +22,7 @@
   margin-right: 10px;
 }
 .hero__title {
-  width: 300px;
+  /* width: 300px; */
   height: 69px;
   font-size: 30px;
   line-height: 1.07;
@@ -55,6 +55,8 @@
   letter-spacing: normal;
   text-align: center;
 }
+.landing__text__bold {
+}
 
 /* comienzo section one */
 .section__one {
@@ -67,4 +69,23 @@
 
 .section__two .section__title {
   height: 29px;
+  padding: 30px 23.5px 27px 22px;
+}
+.checklist {
+  text-align: left;
+  padding-right: 16.5px;
+  padding-left: 47px;
+  line-height: 1.13;
+}
+.checklist__item {
+  margin: 12px 0;
+}
+.cheklist__item__text {
+  position: relative;
+
+  padding-left: 15pt;
+}
+.checklist__item__icon {
+  position: absolute;
+  left: 12px;
 }
