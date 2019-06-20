@@ -8,9 +8,11 @@
 }
 
 .hero__logo {
-  width: 98.3px;
-  height: 47.8px;
-  padding: 41px 111px 30px 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto 30px;
+  padding-top: 41px;
 }
 .hero__wrapper {
   font-weight: normal;
@@ -65,11 +67,13 @@
   width: 100%;
   font-family: "vodafone-regular";
   padding-top: 32.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .section__one .section__title {
   padding-bottom: 26px;
-  margin-right: 20px;
-  margin-left: 20px;
+  max-width: 265px;
 }
 .carousel__card {
   border: solid 2px #fff;
@@ -129,5 +133,29 @@
 
 /* Mediaqueries */
 
-@media all and (min-widtg: 768px) {
+@media all and (min-width: 768px) {
+  .hero__wrapper {
+    /* max-width: 200px; */
+    font-size: 26px;
+  }
+  .hero__logo {
+    padding-top: 52px;
+  }
+  .hero__title {
+    font-size: 36px;
+  }
+  .hero__text {
+    padding-bottom: 20px;
+  }
+  .hero__button {
+    width: 89px;
+    height: 45px;
+    margin: 30px auto;
+  }
+  .section__title {
+    font-size: 30px;
+  }
+  .section__one .section__title {
+    max-width: 554px;
+  }
 }
