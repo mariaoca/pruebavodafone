@@ -4,7 +4,7 @@
   background-image: url(../images/hero-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  /* font-family: "VodafoneRg"; */
+  font-family: "vodafone-regular";
 }
 
 .hero__logo {
@@ -34,6 +34,7 @@
   line-height: normal;
   margin-bottom: 10px;
 }
+
 .hero__button {
   width: 300px;
   height: 34px;
@@ -46,7 +47,7 @@
 }
 
 .section__title {
-  font-family: VodafoneLt;
+  font-family: "vodafone-light";
   font-size: 26px;
   font-weight: normal;
   font-style: normal;
@@ -56,15 +57,46 @@
   text-align: center;
 }
 .landing__text__bold {
+  font-weight: bold;
 }
 
 /* comienzo section one */
 .section__one {
-  background-color: aquamarine;
+  background-color: #333;
+  width: 100%;
+  font-family: "vodafone-regular";
+  padding-top: 32.5px;
+}
+.section__one .section__title {
+  padding-bottom: 26px;
+}
+.carousel__card {
+  border: solid 2px #fff;
+  margin-left: 50px;
+  width: 261px;
+  height: 282px;
+}
+.carousel__img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.carousel__title {
+  font-size: 18px;
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.carousel__text {
+  font-size: 16px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /* /// comienza section two// */
 .section__two {
   background-color: #333;
+  width: 100%;
 }
 
 .section__two .section__title {
@@ -72,6 +104,8 @@
   padding: 30px 23.5px 27px 22px;
 }
 .checklist {
+  font-family: "vodafone-light";
+  font-size: 16px;
   text-align: left;
   padding-right: 16.5px;
   padding-left: 47px;
@@ -86,6 +120,8 @@
   padding-left: 15pt;
 }
 .checklist__item__icon {
+  width: 24px;
+  height: 20px;
   position: absolute;
   left: 12px;
 }
