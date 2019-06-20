@@ -4,6 +4,43 @@
   background-image: url(../images/hero-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  /* font-family: "VodafoneRg"; */
 }
+
 .hero__logo {
+  width: 98.3px;
+  height: 47.8px;
+  padding: 41px 111px 30px 110px;
+}
+.hero__wrapper {
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.hero__title {
+  width: 300px;
+  height: 69px;
+  font-size: 30px;
+  line-height: 1.07;
+  margin-bottom: 10px;
+}
+.hero__text {
+  width: 300px;
+  font-size: 20px;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.hero__button {
+  width: 300px;
+  height: 34px;
+  background-color: #e60000;
+  border: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 25px;
+  color: #fff;
 }
