@@ -134,7 +134,6 @@
 
 @media all and (min-width: 768px) {
   .hero__wrapper {
-    /* max-width: 200px; */
     font-size: 26px;
   }
   .hero__logo {
